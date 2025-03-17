@@ -8,7 +8,7 @@ const MainContainer = () => {
 
   if (!movies) return; //this is called early return and if(!movies) === if(movies === null) both are same
 
-  const mainMovie = movies[6];
+  const mainMovie = movies[0];
   // console.log(mainMovie);
 
   const { original_title, overview, id } = mainMovie;

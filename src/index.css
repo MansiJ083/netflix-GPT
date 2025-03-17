@@ -3,3 +3,13 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
+/* Completely Hide Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
