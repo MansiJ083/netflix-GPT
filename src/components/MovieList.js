@@ -2,8 +2,6 @@ import React from "react";
 import MovieCard from "./MovieCard";
 
 const MovieList = ({ title, movies }) => {
-  console.log(movies);
-
   if (!movies) return; //this is called early return and if(!movies) === if(movies === null) both are same
 
   return (
